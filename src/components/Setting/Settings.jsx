@@ -66,7 +66,7 @@ const Settings = () => {
               <option value="system">System Default</option>
             </select>
           </div>
-          <button className="bg-blue-900 text-white p-2 rounded font-semibold mt-4 hover:bg-blue-700">
+          <button className="bg-blue-900 text-white p-2 rounded font-bold mt-4 hover:bg-blue-700">
             Save Settings
           </button>
         </div>
