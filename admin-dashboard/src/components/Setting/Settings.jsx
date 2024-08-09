@@ -15,7 +15,7 @@ const Settings = () => {
 
   return (
     <div className="settings-page">
-      <div className="settings-container p-6 mx-auto mb-20  my-4 w-full max-w-lg bg-zinc-100 shadow-lg rounded-lg">
+      <div className="settings-container p-6 mx-auto mb-18  my-4 w-full max-w-lg bg-neutral-100 shadow-lg rounded-lg">
         <h2 className="text-3xl font-bold mb-4">Settings</h2>
         <div className="space-y-4">
           <div className="flex flex-col">
