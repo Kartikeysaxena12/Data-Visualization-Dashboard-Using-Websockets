@@ -39,9 +39,11 @@ const Wedge = ({ position, rotation, angle, color, label }) => {
 const FeedbackVisualization = () => {
   // Simulated feedback data
   const feedbackData = [
-    { value: 20, label: "Unsatisifed" },
-    { value: 55, label: "Satisfied" },
-    { value: 25, label: "Could Be Better" },
+    { value: 20, label: "Feature A" },
+    { value: 35, label: "Feature B" },
+    { value: 15, label: "Feature C" },
+    { value: 40, label: "Feature D" },
+    { value: 25, label: "Feature E" },
   ];
 
   const totalValue = feedbackData.reduce((sum, data) => sum + data.value, 0);
@@ -54,7 +56,7 @@ const FeedbackVisualization = () => {
       position: [0, 0, 0],
       rotation: [0, 0, startAngle],
       angle,
-      color: `hsl(${index * 72}, 90%, 70%)`,
+      color: `hsl(${index * 72}, 70%, 50%)`,
       label: data.label,
     };
     startAngle += angle;
