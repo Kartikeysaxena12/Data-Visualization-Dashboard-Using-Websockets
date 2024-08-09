@@ -1,0 +1,33 @@
+.dashboard {
+  padding: 20px;
+}
+
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.chart-item {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .recharts-wrapper {
+    margin: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .recharts-wrapper {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .radial-bar-chart {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
