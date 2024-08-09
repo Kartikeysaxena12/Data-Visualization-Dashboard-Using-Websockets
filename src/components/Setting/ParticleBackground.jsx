@@ -17,7 +17,7 @@ function ParticleBackground() {
 
   return (
     <Points positions={particles} limit={5000}>
-      <PointMaterial color="#1e3a8a" size={0.06} sizeAttenuation={true} />
+      <PointMaterial color="#1e3a8a" size={0.05} sizeAttenuation={true} />
     </Points>
   );
 }
