@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+.three-container {
+  width: 400px;
+  height: 400px;
+}
+
 .settings-container[data-theme="light"] {
   --bg-color: #ffffff;
   --text-color: #000000;
@@ -37,9 +42,9 @@
   --heading-color: #1e3a8a;
   --input-bg-color: #f9f9f9;
   --border-color: #d1d5db;
-  --button-bg-color: #3b82f6;
+  --button-bg-color: #132e58;
   --button-text-color: #ffffff;
-  --button-hover-bg-color: #1e40af;
+  --button-hover-bg-color: #d8dbe3;
 }
 
 .settings-container {

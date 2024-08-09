@@ -1,5 +1,8 @@
+// Settings.jsx
+
 import React, { useState, useEffect } from "react";
 import "./Setting.css";
+import ThreeVisualization from "./ThreeVisualization"; // Import the 3D visualization
 
 const Settings = () => {
   const [theme, setTheme] = useState("light");
@@ -15,7 +18,8 @@ const Settings = () => {
 
   return (
     <div className="settings-page">
-      <div className="settings-container p-6 mx-auto mb-18  my-4 w-full max-w-lg bg-neutral-100 shadow-lg rounded-lg">
+      <ThreeVisualization /> {/* Add the 3D visualization here */}
+      <div className="settings-container p-6 mx-auto mb-28 mr-40 my-4 w-full max-w-xl bg-neutral-100 shadow-lg rounded-lg">
         <h2 className="text-3xl font-bold mb-4">Settings</h2>
         <div className="space-y-4">
           <div className="flex flex-col">
@@ -62,7 +66,7 @@ const Settings = () => {
               <option value="system">System Default</option>
             </select>
           </div>
-          <button className="bg-blue-600 text-white p-2 rounded font-semibold mt-4 hover:bg-blue-700">
+          <button className="bg-blue-900 text-white p-2 rounded font-bold mt-4 hover:bg-blue-700">
             Save Settings
           </button>
         </div>
